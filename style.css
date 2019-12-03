@@ -1,0 +1,19 @@
+body{
+  background-image: url(http://giphygifs.s3.amazonaws.com/media/4xuVp2pfYSc5G/giphy.gif);
+  /* background-repeat: no-repeat; */
+  background-size: 100%;
+  font-family: "Courier New", Courier, monospace;
+  color:black;
+}
+
+/* img{
+  width: 400px;
+  height: 225px;
+} */
+
+/* You can adjust single video by selecting their class name */
+/* .video1{
+  transform: rotate(45deg);
+}
+
+}
