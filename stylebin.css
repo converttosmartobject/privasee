@@ -1,19 +1,29 @@
 body{
-  background-image: url(http://giphygifs.s3.amazonaws.com/media/4xuVp2pfYSc5G/giphy.gif);
+  background-image: url(images/nethome.gif);
   /* background-repeat: no-repeat; */
   background-size: 100%;
   font-family: "Courier New", Courier, monospace;
   color:black;
 }
 
-/* img{
-  width: 400px;
-  height: 225px;
-} */
-
-/* You can adjust single video by selecting their class name */
-/* .video1{
-  transform: rotate(45deg);
+footer {
+  background-color: black;
+  width: 99%;
+  height: 20%;
+  padding-top: 10px;
+  text-align: left;
+  position:absolute;
+  bottom:0;
 }
 
+footer .start {
+  margin-left: 50px;
+  margin-top: 30px;
+  width: 100px;
+  height: 100px;
+}
+
+footer .search {
+  width: 450px;
+  height: 100px;
 }

@@ -1,5 +1,5 @@
 body{
-  background-image: url(images/jellyfish.gif);
+  background-image: url(images/orb.jpg);
   background-repeat: no-repeat;
   background-size: 100%;
   font-family: "Courier New", Courier, monospace;
@@ -11,19 +11,30 @@ footer {
   width: 99%;
   height: 20%;
   padding-top: 10px;
-  text-align: center;
+  text-align: left;
   position:absolute;
   bottom:0;
 }
 
-footer .social img {
+footer .start {
   margin-left: 50px;
-  width:64px;
-  height:64px;
+  margin-top: 30px;
+  width: 100px;
+  height: 100px;
+}
+
+footer .search {
+  width: 450px;
+  height: 100px;
+}
+
+/* footer .social img {
+  margin-left: 50px;
+  scale: 0.2;
 }
 #firstsocial {
   margin-left:-50px;
-}
+} */
 
 footer p{
   padding: 35px 0;
