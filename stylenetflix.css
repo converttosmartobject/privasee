@@ -6,6 +6,23 @@ body{
   color:black;
 }
 
+header {
+  background-color: black;
+  top: 0;
+  width: 99%;
+  height: 180px;
+  position:fixed;
+  z-index: 3; /* to bring the layer on top for the arrangement */
+}
+
+header .camera {
+  width: 350px;
+  height: 150px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 footer {
   background-color: black;
   width: 99%;
