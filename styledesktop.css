@@ -1,13 +1,20 @@
 body{
-  background-image: url(images/wall.jpg);
-  background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: 50%;
   font-family: "Courier New", Courier, monospace;
   color:black;
 }
 
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+  position: fixed;
+  right: 100;
+  bottom: 100;
+  min-width: 100%;
+  min-height: 100%;
+}
+
 header {
-  background-color: black;
+  background: rgba(0, 0, 0, 0.5);
   top: 0;
   width: 99%;
   height: 180px;
@@ -24,7 +31,7 @@ header .camera {
 }
 
 footer {
-  background-color: black;
+  background: rgba(0, 0, 0, 0.5);
   width: 99%;
   height: 20%;
   padding-top: 10px;

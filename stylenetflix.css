@@ -7,7 +7,7 @@ body{
 }
 
 header {
-  background-color: black;
+  background: rgba(0, 0, 0, 0.5);
   top: 0;
   width: 99%;
   height: 180px;
@@ -24,7 +24,7 @@ header .camera {
 }
 
 footer {
-  background-color: black;
+  background: rgba(0, 0, 0, 0.5);
   width: 99%;
   height: 20%;
   padding-top: 10px;
