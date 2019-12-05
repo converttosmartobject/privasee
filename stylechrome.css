@@ -2,8 +2,8 @@ body{
   /* background-image: url(images/newtab.PNG); */
   /* background-repeat: no-repeat; */
   background-size: 100%;
-  font-family: "Courier New", Courier, monospace;
-  color:black;
+  /* font-family: "Courier New", Courier, monospace;
+  color:black; */
 }
 
 #myVideo {
